@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hello1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="808dp"
+        android:layout_height="899dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/displayshape" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="202dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="SignUpClick"
+        android:text="Weight loss"
+        android:textColor="#6E9CD2"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/scale"
+        app:iconTint="#6E9CD2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="202dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="SignUpClick"
+        android:text="Keeping fit"
+        android:textColor="#6E9CD2"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/yoga"
+        app:iconTint="#6E9CD2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="202dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="SignUpClick"
+        android:text="Build muscle"
+        android:textColor="#6E9CD2"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/triceps"
+        app:iconTint="#6E9CD2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
